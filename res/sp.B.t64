@@ -1,0 +1,80 @@
+ No input file inputsp.data. Using compiled defaults
+
+
+ NAS Parallel Benchmarks 4.1 Parallel C++ version with OpenMP - SP Benchmark
+
+ Size:  102x 102x 102
+ Iterations:  400    dt:   0.001000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 6.9032935799984E+01 6.9032935799980E+01 5.1669894843394E-14
+           2 3.0951344880842E+01 3.0951344880840E+01 7.6675593470184E-14
+           3 4.1033366470174E+01 4.1033366470170E+01 1.0407047262434E-13
+           4 3.8647690096039E+01 3.8647690096040E+01 3.8241066586602E-14
+           5 5.6434822725957E+01 5.6434822725960E+01 5.6405447956532E-14
+ Comparison of RMS-norms of solution error
+           1 9.8100061901884E-03 9.8100061901880E-03 4.0494538769611E-14
+           2 1.0228279056704E-03 1.0228279056700E-03 3.9834968733392E-13
+           3 1.7205979116917E-03 1.7205979116920E-03 1.5110542631448E-13
+           4 1.6944794282311E-03 1.6944794282310E-03 8.5227195425935E-14
+           5 1.8474562639811E-02 1.8474562639810E-02 7.7559702986916E-14
+ Verification Successful
+
+
+ SP Benchmark Completed
+ class_npb       =                        B
+ Size            =            102x 102x 102
+ Total threads   =                       64
+ Iterations      =                      400
+ Time in seconds =                     2.56
+ Mop/s total     =                138455.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      4.1
+ Compile date    =              06 Apr 2024
+ Compiler ver    =                   11.4.0
+ OpenMP version  =                   201511
+
+ Compile options:
+    CC           = g++ -std=c++14
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common 
+    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+----------------------------------------------------------------------
+    NPB-CPP is developed by: 
+        Dalvan Griebler
+        Gabriell Araujo (Sequential Porting)
+        Júnior Löff (Parallel Implementation)
+
+    In case of questions or problems, please send an e-mail to us:
+        dalvan.griebler; gabriell.araujo; junior.loff@edu.pucrs.br
+----------------------------------------------------------------------
+
