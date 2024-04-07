@@ -23,6 +23,7 @@ SCALE_NAMES = {
 }
 
 THREADS_COUNTS = [
+    224, 
     112, 
     56, 
     28, 

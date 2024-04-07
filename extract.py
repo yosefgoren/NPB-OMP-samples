@@ -1,6 +1,6 @@
 #!/bin/python3
 
-from a import *
+from run import *
 from typing import Tuple
 from json import dump
 import subprocess
@@ -23,8 +23,8 @@ def extract_sample(case_n, scale_n, num_threads):
         'Time in seconds = <float>'
     """
     sample_path = getFilePath(case_n, scale_n, num_threads)
-    check_case(case_n)
-    check_scale(scale_n)
+    checkCase(case_n)
+    checkScale(scale_n)
     if not doesFileExist(sample_path):
         print(f"requested to extract sample with non-existant file: '{sample_path}'")
         return None
