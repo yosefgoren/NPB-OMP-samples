@@ -1,0 +1,35 @@
+7 [4130389568] INFO perfrun.launcher <> - Launcher main begin
+8 [4130389568] INFO perfrun.launcher <> - MessageCatalogInit finished
+8 [4130389568] INFO perfrun.launcher <> - Launcher instance created
+8 [4130389568] INFO perfrun.launcher <> - argc = 6; cmdline = /home/sdp/intel/oneapi/vtune/2024.0/bin32/amplxe-runss -dump-vdso -r /home/sdp/yosef/NPB-CPP/NPB-OMP/vtunes/cg.B.8/r000hs --tmp-dir /tmp/amplxe-tmp-sdp 
+49 [4130389568] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+49 [4130389568] INFO perfrun.launcher <> - create file finder object
+104 [4129848000] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.vdso <> - dumping [vdso] pseudomodule
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+104 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+105 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+105 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+105 [4129848000] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+105 [4130389568] INFO perfrun.launcher <> - Application exit code: 0
+105 [4130389568] INFO perfrun.launcher <> - Exit code: 0
