@@ -22,7 +22,7 @@ def extract_sample(case_n, scale_n, num_threads):
     the format of the line in the result file which contains this information is:
         'Time in seconds = <float>'
     """
-    sample_path = getFilePath(case_n, scale_n, num_threads)
+    sample_path = getResPath(case_n, scale_n, num_threads)
     checkCase(case_n)
     checkScale(scale_n)
     if not doesFileExist(sample_path):
