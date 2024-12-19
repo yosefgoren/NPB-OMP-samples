@@ -226,6 +226,7 @@ static boolean flag2[ISIZ1/2*2+1];
 
 /* lu */
 int main(int argc, char* argv[]){
+	//@#$init
 #if defined(DO_NOT_ALLOCATE_ARRAYS_WITH_DYNAMIC_MEMORY_AND_AS_SINGLE_DIMENSION)
 	printf(" DO_NOT_ALLOCATE_ARRAYS_WITH_DYNAMIC_MEMORY_AND_AS_SINGLE_DIMENSION mode on\n");
 #endif
@@ -392,6 +393,7 @@ int main(int argc, char* argv[]){
 			}
 		}
 	}
+	//@#$finish
 	return 0;
 }
 

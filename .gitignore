@@ -1,0 +1,4 @@
+*.S
+*.o
+npbparams.hpp
+setparams

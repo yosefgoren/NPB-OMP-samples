@@ -93,6 +93,7 @@ static double (*q)=(double*)malloc(sizeof(double)*(NQ));
 
 /* ep */
 int main(int argc, char **argv){
+	//@#$init
 #if defined(DO_NOT_ALLOCATE_ARRAYS_WITH_DYNAMIC_MEMORY_AND_AS_SINGLE_DIMENSION)
 	printf(" DO_NOT_ALLOCATE_ARRAYS_WITH_DYNAMIC_MEMORY_AND_AS_SINGLE_DIMENSION mode on\n");
 #endif
@@ -330,5 +331,6 @@ int main(int argc, char **argv){
 		printf("Random numbers: %9.3f (%6.2f)\n", tt, tt*100.0/tm);
 	}
 
+	//@#$finish
 	return 0;
 }
